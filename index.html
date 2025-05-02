@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Captura</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Instagram -->
+  <div class="instagram-link">
+    <a href="https://www.instagram.com/laislacrispim/" target="_blank">
+        <img src="IMAGENS/WhatsApp Image 2025-05-01 at 18.27.41.jpeg" alt="Instagram Laisla Crispim"
+        style="width: 300px;"> 
+
+    </a>
+  </div>
+
+  <!-- Título -->
+  <h1 class="main-title">VOCÊ ESTÁ A UM PASSO DE MUDAR SEUS RESULTADOS PARA SEMPRE</h1>
+
+  <!-- Subtítulo -->
+  <h2 class="sub-title">RESULTADOS REAIS, USANDO ESTRATÉGIAS SIMPLES E TESTADAS.</h2>
+
+<!-- Imagem abaixo do subtítulo -->
+<div class="image-below-subtitle">
+    <img src="IMAGENS/1000350010.webp" alt="Imagem de destaque" style="max-width: 300px; height: auto;">
+  </div>
+
+<!-- Texto piscando -->
+<p class="trigger-text glow-text">VAGAS LIMITADAS! GARANTA SUA OPORTUNIDADE.</p>
+
+<!-- Botão piscando -->
+<button class="cta-button glow-button" onclick="abrirPopup()">QUERO MEU MÉTODO</button>
+
+<!-- Pop-up escondido inicialmente -->
+<div id="popup" style="display: none;">
+    <h3>INFORMAÇÕES</h3>
+    <form action="https://formsubmit.co/laislaisabelle.hdc@gmail.com" method="POST">
+        <input type="text" name="NOME" required placeholder="NOME">
+        <input type="email" name="E-MAIL" required placeholder="E-MAIL">
+        <button type="submit">QUERO MEU MÉTODO</button>
+   </form>
+    <script>
+        function abrirPopup() {
+             document.getElementById('popup').style.display = 'block';
+             // Exibe o pop-up 
+        }
+        </script>
+        <script src="index.js"></script>
+  </div>
+  </body>
+  </html>
